@@ -1,7 +1,7 @@
 import random
 print("**** Welcome to Rock-Paper-Scissor Game ****")
 
-scissors='''
+scissor='''
     _______
 ---'   ____)____
           ______)
@@ -31,10 +31,10 @@ paper='''
 
 '''
 
-game_images=[rock,paper,scissors]
+game_images=[rock,paper,scissor]
 
 while True:
-    user_input=int(input("Enter your choice:\n 0 : Rock\n 1 : Paper\n 2: Scissors\n"))
+    user_input=int(input("Enter your choice:\n 0 : Rock\n 1 : Paper\n 2: Scissor\n"))
     print(f'You chose: \n {game_images[user_input]}')
 
     print("Now it's computer's turn :")
